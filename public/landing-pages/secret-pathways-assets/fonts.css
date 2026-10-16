@@ -1,0 +1,30 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;700&display=block");
+
+/* NotoJP fallback */
+@font-face{
+  font-family:"NotoJP";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:local("Noto Sans JP"),local("NotoSansJP-Regular"),
+      url("https://fonts.gstatic.com/s/notosansjp/v52/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEi75vY0rw-oME.woff2") format("woff2");
+}
+
+/* Wordmark = mapped to Onest Bold for the large KAGE wordmark */
+@font-face{
+  font-family:"Wordmark";
+  font-style:normal;
+  font-weight:500;
+  font-display:block;
+  src:local("Onest"),
+      url("https://fonts.gstatic.com/s/onest/v6/gNMkW3F-SZuj7zOT0IfSjTS16a4.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Wordmark";
+  font-style:normal;
+  font-weight:600;
+  font-display:block;
+  src:local("Onest"),
+      url("https://fonts.gstatic.com/s/onest/v6/gNMkW3F-SZuj7zOT0IfSjTS16a4.woff2") format("woff2");
+}
+
